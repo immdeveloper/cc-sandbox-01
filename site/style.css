@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(90,90,95);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Universal Styles & Typography */
+
+h2, h3 {
+  color: #8998A2;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+h2 span {
+  color: #DC245E;
+}
+h3 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+h4 {
+  margin: 0.5rem 0;
+}
+
+img + h2 { margin-top: 1rem; }
+h2 + p { margin-top: 1rem;  }
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Utility Classes */
+
+.padded     { padding: 5%; }
+.padded-2   { padding: 2%; }
+
+.left   { text-align: left;   }
+.right  { text-align: right;  }
+.center { text-align: center; }
+
+.tall { min-height:80vh; }
+
+.dark {  background-color: rgb(60,60,65);  }
+.dark h2,
+.dark h3,
+.dark p,
+.dark a
+ { color: white; }
+.light {  background-color: rgb(245,245,247); }
+
+.featured {
+  background-color: #DC245E;
+}
+
+.featured * {
+    color: white;
+}
+
+/* Header & Nav */
+
+header {
+  padding: 0 5%;
+  background-color: white;
+}
+
+header [class*=col-] {
+  padding:0;
+}
+
+header a {
+  text-decoration: none;
+  padding: 5px;
+  display: inline-block;
+  text-transform: uppercase;
+  border-bottom: 2px solid white;
+  color: #8998A2;
+}
+
+header nav a:hover,
+footer a:hover {
+  border-bottom: 2px solid #DC245E;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.logo img {
+  max-height: 100px;
+}
+
+/* Background images & Banners */
+.bg-image,
+.bg-banner {
+  background-image: url('/images/bodylab-8.jpeg');
+  background-size: cover;
+  background-position: center;
+  min-height: 30vh;
+  position: relative;
+}
+.bg-banner {
+    min-height: 60vh;
+}
+
+.bg-banner h2 {
+  font-weight: 300;
+  font-size: 2rem;
+  text-transform: none;
+  color: rgb(60,60,65);
+}
+
+.post-image {
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 60%;
+  margin-bottom: 1rem;
+}
+
+.sticky-pink {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(rgba(1,1,1,0), #f1a5bd);
+  padding: 15% 5% 5%;
+  text-align: center;
+}
+
+
+/* Buttons */
+
+.button {
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+  display: inline-block;
+  text-transform: uppercase;
+  border: 2px solid white;
+  border-radius: 9px;
+  margin-top: 1.5rem;
+  transition: all 0.5s;
+}
+.button.pink {
+  border: 2px solid #DC245E;
+  color: #DC245E;
+}
+
+.button:hover {
+  color: #8998A2;
+  border-color: #8998A2;
+}
+
+/* forms */
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  -webkit-appearance: none;
+  border: none;
+  font-size: 0.9rem;
+}
+
+input[type="submit"] {
+  background-color: #DC245E;
+  text-transform: uppercase;
+  font-weight:bold;
+  color: white;
+}
+
+/* services grid */
+.services-grid .grid:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.social-nav img {
+    padding: 5px;
+    max-width: 50px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 1px solid rgb(220,220,220);
+}
+
+textarea {
+  min-height: 4rem;
+}
+
+form label {
+  margin: 1rem 0 0;
+  color: #DC245E;
+  font-weight: bold;
+  display: inline-block; /* This ads margin above each label. You need display inline block, because by default it's an inline element that won't accept vertical margin.*/
+}
+
+/* blog posts */
+
+.post h2 {
+  font-weight: normal;
+  color: #DC245E;
+  font-size: 2.2rem;
+}
+
+.post h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.post img {
+  margin: 1rem 0;
+}
+
+
+/* Media Queries */
+
+
+
+@media(max-width:676px) {
+  header div,
+  header nav.right {
+    text-align: center;
+  }
+
+  form {
+    margin: auto;
+    max-width: 100%;
+  }
+}
