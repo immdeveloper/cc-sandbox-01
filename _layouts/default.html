@@ -93,6 +93,15 @@
 
 <!-- Smooth Scrolling -->
 <script type="text/javascript">
+    //Sample slider
+    (function($){
+      $(document).ready(function(){
+        $('.banner-slider-wrapper').slick({
+          slidesToShow: 1,
+        });
+      });
+    })(jQuery);
+
   // Select all links with hashes
   $('a[href*="#"]')
   // Remove links that don't actually link to anything
