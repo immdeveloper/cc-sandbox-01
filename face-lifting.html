@@ -218,47 +218,6 @@ face-treatments:
  {% endfor %}
 </section>
 
-<section class="padded center featured editable" id="body">
-  <h2>Body Treatments</h2>
-  <p>&nbsp;</p>
-  <p>We use cutting-edge aesthetic machines to help you create the tight, toned body you've always dreamed of.</p>
-  <p>Our experienced therapists can create a personalised treatment plan that will slim and sculpt your body with lasting results and minimal downtime.&nbsp;</p>
-</section>
-
-<!-- Services grid section -->
-<section class="services-grid">
-  {% for item in page.body-treatments %}
-  <div class="grid">
-    <div class="bg-image col-6_sm-12" style="background-image: url({{item.image_path}});"></div>
-    <div class="col-6_sm-12 padded">
-      <h2> {{item.title}}<span> {{item.title-highlighted}} </span></h2>
-      <h3> {{item.subtitle}}</h3>
-      <p> {{item.description_html}}</p>
-    </div>
-  </div>
- {% endfor %}
-</section>
-
-<section class="padded center featured editable" id="injectable">
-  <h2>Injectible Rejuvenation Treatments</h2>
-  <p>&nbsp;</p>
-  <p>Injectible treatments like botox and fillers are in high demand, but these are delicate procedures that should only be performed by experienced medical staff. Body Lab not only has some of the highest trained staff of any medical spa in Bali with years of experience but also uses only premium quality imported products for all of their injectable treatments.</p>
-</section>
-
-<!-- Services grid section -->
-<section class="services-grid">
-  {% for item in page.injectable-treatments %}
-  <div class="grid">
-    <div class="bg-image col-6_sm-12" style="background-image: url({{item.image_path}});"></div>
-    <div class="col-6_sm-12 padded">
-      <h2> {{item.title}}<span> {{item.title-highlighted}} </span></h2>
-      <h3> {{item.subtitle}}</h3>
-      {{item.description_html}}
-    </div>
-  </div>
- {% endfor %}
-</section>
-
 <!-- Call to action -->
 <section class="padded center featured">
   <h2> Only the best </h2>
