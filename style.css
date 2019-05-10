@@ -261,7 +261,7 @@ form label {
 .video-grid iframe {
     height: 315px;
 }
-.banner-slider-wrapper img {
+.banner-slider-wrapper .bg-banner {
     height:300px;
 }
 
