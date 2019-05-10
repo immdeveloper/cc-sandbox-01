@@ -105,7 +105,7 @@
           autoplay: true,
           autoplaySpeed: 3500,
         });
-        
+        $('.grid-middle').css('position', 'fixed');
         $(window).scroll(function(){
             if ($(window).scrollTop() >= 110) {
                 $('.grid-middle').addClass('fixed-header');
