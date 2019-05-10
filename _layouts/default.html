@@ -109,11 +109,7 @@
     })(jQuery);
 
 
-$(function(){
-  $(window).scroll(function(){
-    stickyHeader();
-  });
-});
+window.onscroll = function() {stickyHeader()};
 var header = $(".grid-middle");
 var sticky = header.offsetTop;
 
