@@ -315,6 +315,9 @@ form label {
     -ms-transition: position 10s;
     -o-transition: position 10s;
     transition: all 0.5s ease;
+    position: fixed;
+    top: 0px;
+    z-index:123;
 }
 @media(max-width:767px){
     header nav{
