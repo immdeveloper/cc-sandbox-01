@@ -302,6 +302,7 @@ form label {
     position: fixed;
     top: 0px;
     z-index:123;
+    width:101%;
 }
 
 @media(max-width:767px){
