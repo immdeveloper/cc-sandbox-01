@@ -262,8 +262,16 @@ form label {
 .video-grid iframe {
     height: 315px;
 }
+.bg-banner .text-slider {
+  position: absolute;
+  left: 0;
+  right:0;
+  top: 50%;
+  transform: translate(25%,-50%);
+  width: 450px;
+}
 .banner-slider-wrapper .bg-banner {
-    height:300px;
+    transform: translateX(8px);
 }
 
 @media(max-width:767px){
