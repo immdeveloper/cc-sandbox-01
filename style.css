@@ -278,6 +278,17 @@ form label {
     transform: translateX(8px);
 }
 
+.text-slider h2 {
+    font-weight: 300;
+    font-size: 2rem;
+    text-transform: none;
+    color: rgba(255, 255, 255, 0.87);
+}
+.text-slider p {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+
 @media(max-width:767px){
     header nav{
         display: none;
