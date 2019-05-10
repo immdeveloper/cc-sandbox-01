@@ -109,9 +109,11 @@
         $(window).scroll(function(){
             if ($(window).scrollTop() >= 110) {
                 $('.grid-middle').addClass('fixed-header');
+                $('body').addClass('scroll-header');
             }
             else {
                 $('.grid-middle').removeClass('fixed-header');
+                $('body').removeClass('scroll-header');
             }
         });
 
