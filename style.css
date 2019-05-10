@@ -309,7 +309,7 @@ form label {
     -o-transition: position 10s;
     transition: all 0.5s ease;
 }
-.grid-middle {
+.headers {
     -webkit-transition: all 0.5s ease;
     -moz-transition: position 10s;
     -ms-transition: position 10s;
@@ -319,6 +319,7 @@ form label {
     top: 0px;
     z-index:123;
 }
+
 @media(max-width:767px){
     header nav{
         display: none;
