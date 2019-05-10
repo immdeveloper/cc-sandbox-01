@@ -299,7 +299,7 @@ form label {
 }
 
 .fixed-header {
-    position: fixed;
+    /*position: fixed;*/
     top: 0px;
     z-index:123;
     width:101%;
@@ -315,7 +315,7 @@ form label {
     -ms-transition: position 10s;
     -o-transition: position 10s;
     transition: all 0.5s ease;
-    position: fixed;
+    /*position: fixed;*/
     top: 0px;
     z-index:123;
 }
