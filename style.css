@@ -282,10 +282,12 @@ form label {
     font-weight: 300;
     font-size: 2rem;
     text-transform: none;
-    color: rgba(255, 255, 255, 0.87);
+    color:#fff;
+    text-shadow: 0 0 3px rgba(0 , 0 , 0 , 0.5);
 }
 .text-slider p {
-    color: rgba(255, 255, 255, 0.87);
+    color:#fff;
+    text-shadow: 0 0 3px rgba(0 , 0 , 0 , 0.5);
 }
 
 
