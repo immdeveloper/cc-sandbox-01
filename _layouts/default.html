@@ -108,6 +108,25 @@
       });
     })(jQuery);
 
+
+$(function(){
+  $(window).scroll(function(){
+    stickyHeader();
+  });
+});
+var header = $(".grid-middle");
+var sticky = header.offsetTop;
+
+function stickyHeader() {
+  if (window.pageYOffset > sticky) {
+    // header.add("sticky");
+    header.addClass("sticky");
+  } else {
+    // header.classList.remove("sticky");
+    header.removeClass("sticky");
+  }
+}
+
   // Select all links with hashes
   $('a[href*="#"]')
   // Remove links that don't actually link to anything
