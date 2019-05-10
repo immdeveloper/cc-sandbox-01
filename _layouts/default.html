@@ -19,7 +19,7 @@
 
 
   <!-- HEADER SECTION -->
-  <header class="grid-middle">
+  <header class="grid-middle headers">
     <div class="col-4_sm-12">
       <a class="logo" href="/index">
         <img src="/images/body-lab-logo.png" />
@@ -107,11 +107,11 @@
         });
         $(window).scroll(function(){
             if ($(window).scrollTop() >= 110) {
-                $('.grid-middle').addClass('fixed-header');
+                $('.headers').addClass('fixed-header');
                 $('body').addClass('scroll-header');
             }
             else {
-                $('.grid-middle').removeClass('fixed-header');
+                $('.headers').removeClass('fixed-header');
                 $('body').removeClass('scroll-header');
             }
         });
