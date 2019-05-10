@@ -320,6 +320,9 @@ form label {
     z-index:123;
     width:101%;
 }
+.banner-fixed {
+    margin-top:110px;
+}
 
 @media(max-width:767px){
     header nav{
