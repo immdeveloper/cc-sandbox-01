@@ -303,8 +303,11 @@ form label {
     top: 0px;
     z-index:123;
     width:101%;
+    transition: all 500ms ease;
 }
-
+.grid-middle {
+    transition: all 500ms ease;
+}
 @media(max-width:767px){
     header nav{
         display: none;
