@@ -105,21 +105,21 @@
           autoplay: true,
           autoplaySpeed: 3500,
         });
+        
+        $(window).scroll(function(){
+            if ($(window).scrollTop() >= 20) {
+                $('.grid-middle').addClass('fixed-header');
+            }
+            else {
+                $('.grid-middle').removeClass('fixed-header');
+            }
+        });
+
       });
     })(jQuery);
 
 
-window.onscroll = function() {stickyHeader()};
-var header = $(".grid-middle");
-var sticky = header.offsetTop;
 
-function stickyHeader() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
 
   // Select all links with hashes
   $('a[href*="#"]')
