@@ -261,7 +261,9 @@ form label {
 .video-grid iframe {
     height: 315px;
 }
-
+.banner-slider-wrapper {
+    height:300px;
+}
 
 @media(max-width:767px){
     header nav{
