@@ -347,8 +347,22 @@ form label {
   visibility: visible;
   opacity: 1;
   display: block;
-  background: #fff;
+  background: #be2153;
   width: 250px;
+}
+.nav-menu li:hover ul.sub-menu a {
+    text-decoration: none;
+    padding: 5px 5px 5px 0;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+  border-bottom: none;
+  transition:all 500ms ease;
+}
+.nav-menu li:hover ul.sub-menu a:hover {
+  border-bottom: 2px solid #fff;
+  margin-bottom:5px;
+  transition:all 500ms ease;
 }
 
 @media(max-width:767px){
