@@ -324,6 +324,33 @@ form label {
     margin-top:110px;
 }
 
+.nav-menu li.main-menu {
+  display:inline-block;
+}
+
+.nav-menu li ul.sub-menu {
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    margin-left: 0px;
+    width: 100%;
+    margin-right: 0px;
+    padding-top: 5px;
+    -webkit-transition: opacity 600ms, visibility 600ms;
+    transition: opacity 600ms, visibility 600ms;
+}
+
+.nav-menu li:hover ul.sub-menu {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  background: #fff;
+  width: 250px;
+}
+
 @media(max-width:767px){
     header nav{
         display: none;
