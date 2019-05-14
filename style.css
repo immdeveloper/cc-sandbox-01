@@ -347,7 +347,7 @@ form label {
   visibility: visible;
   opacity: 1;
   display: block;
-  background: #be2153;
+  background: #fff;
   width: 250px;
 }
 .nav-menu li:hover ul.sub-menu a {
@@ -355,7 +355,7 @@ form label {
     padding: 5px 5px 5px 0;
     display: inline-block;
     text-transform: uppercase;
-    color: #fff;
+    color: #8998A2;
   border-bottom: none;
   transition:all 500ms ease;
 }
