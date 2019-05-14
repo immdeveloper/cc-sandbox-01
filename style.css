@@ -359,11 +359,11 @@ form label {
   border-bottom: none;
   transition:all 500ms ease;
 }
-.nav-menu li:hover ul.sub-menu a:hover {
-  border-bottom: 2px solid #fff;
-  margin-bottom:5px;
-  transition:all 500ms ease;
-}
+/*.nav-menu li:hover ul.sub-menu a:hover {*/
+/*  border-bottom: 2px solid #fff;*/
+/*  margin-bottom:5px;*/
+/*  transition:all 500ms ease;*/
+/*}*/
 
 @media(max-width:767px){
     header nav{
