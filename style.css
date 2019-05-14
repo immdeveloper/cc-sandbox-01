@@ -354,6 +354,7 @@ form label {
     text-decoration: none;
     display: inline-block;
     text-transform: uppercase;
+    border-bottom: none;
     transition:all 500ms ease;
 }
 /*.nav-menu li:hover ul.sub-menu a:hover {*/
