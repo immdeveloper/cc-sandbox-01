@@ -574,7 +574,7 @@ header a {
     color:#fff;
   }
   .mobile-menu li.main-mobile-menu {
-    padding: 15px;
+    padding: 15px 0;
     background: #DC245E;
     border-bottom: 1px solid #fff;
   }
