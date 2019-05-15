@@ -564,6 +564,7 @@ header a {
   }
   .nav-mobile .mobile-sub-menu li {
     border-top: 1px solid #fff;
+    padding: 15px;
   }
   header a {
     border-bottom: 0px;
@@ -592,13 +593,13 @@ header a {
   .main-mobile-menu.open .mobile-sub-menu {
     visibility: visible;
     opacity: 1;
-    height: 110px;
+    height: 200px;
     margin:0;
     position:relative;
     margin:0;
     text-align:center;
     transition:all 500ms ease;
-    position:relative;
+    top:15px;
     
   }
   
