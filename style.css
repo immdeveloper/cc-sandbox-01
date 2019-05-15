@@ -405,7 +405,7 @@ nav.navbar {
         display: none;
     }
     nav.navbar {
-     display:none;
+     display:block;
     }
 }
 
