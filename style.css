@@ -303,11 +303,11 @@ form label {
     top: 0px;
     z-index:123;
     width:102%;
-    -webkit-transition: all 0.5s ease;
+    -webkit-transition: all 500ms ease;
     -moz-transition: position 10s;
     -ms-transition: position 10s;
     -o-transition: position 10s;
-    transition: all 0.5s ease;
+    transition: all 500ms ease;
 }
 .headers {
     -webkit-transition: all 500ms ease;
