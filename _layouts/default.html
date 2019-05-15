@@ -21,7 +21,7 @@
   <!-- HEADER SECTION -->
   <header class="grid-middle headers">
     <div class="col-4_sm-12">
-    <div id="nav-icon3">
+    <div id="nav-icon3" class="nav-list-menu">
       <span></span>
       <span></span>
       <span></span>
@@ -31,23 +31,24 @@
       <a class="logo" href="/index">
         <img src="/images/body-lab-logo.png" />
       </a>
-      
-      <ul class="mobile-menu">
-            <li class="main-menu"><a href="/index"> Home </a></li>
-            <li class="main-menu"><a href="/about"> About </a></li>
-            <li class="main-menu">
-                <a href="/treatments"> Treatments </a>
-                <ul class="sub-menu sub-menu-desktop">
-                    <li><a href="/treatments/face-treatments">Face Treatments</a></li>
-                    <li><a href="/treatments/body-treatments">Body Treatments</a></li>
-                    <li><a href="/treatments/rejuvenation-treatments">Rejuvenation Treatments</a></li>
-                </ul>
-            </li>
-            <li class="main-menu"><a href="/promo"> Promo </a></li>
-            <li class="main-menu"><a href="/videos"> Videos </a></li>
-            <li class="main-menu"><a href="{{site.data.price-list.price-list_path}}" target="_blank"> Prices </a></li>
-            <li class="main-menu"><a href="/contact"> Contact</a></li>
-        </ul>
+      <div class="nav-mobile">
+          <ul class="mobile-menu">
+                <li class="main-mobile-menu"><a href="/index"> Home </a></li>
+                <li class="main-mobile-menu"><a href="/about"> About </a></li>
+                <li class="main-mobile-menu">
+                    <a href="/treatments"> Treatments </a>
+                    <ul class="mobile-sub-menu">
+                        <li><a href="/treatments/face-treatments">Face Treatments</a></li>
+                        <li><a href="/treatments/body-treatments">Body Treatments</a></li>
+                        <li><a href="/treatments/rejuvenation-treatments">Rejuvenation Treatments</a></li>
+                    </ul>
+                </li>
+                <li class="main-mobile-menu"><a href="/promo"> Promo </a></li>
+                <li class="main-mobile-menu"><a href="/videos"> Videos </a></li>
+                <li class="main-mobile-menu"><a href="{{site.data.price-list.price-list_path}}" target="_blank"> Prices </a></li>
+                <li class="main-mobile-menu"><a href="/contact"> Contact</a></li>
+            </ul>
+        </div>
     </div>
     
     <nav class="col-8_sm-12 right">
@@ -158,7 +159,7 @@
       });
       
       $(document).ready(function(){
-    	$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+    	$('.nav-list-menu').click(function(){
     		$(this).toggleClass('open');
     	});
     	
