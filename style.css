@@ -621,6 +621,15 @@ header a {
   transition: all 300ms ease;
   transform: rotate(360deg);
 }
+.bg-banner .text-slider {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translate(5%,-50%);
+    width: 450px;
+    padding-right: 70px;
+}
 }
 
 
