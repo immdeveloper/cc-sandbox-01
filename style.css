@@ -554,6 +554,53 @@ header a {
   width: 0%;
   left: 50%;
 }
+
+.fixed-header ul.mobile-menu {
+    margin-left: 0;
+    margin-bottom: 1rem;
+}
+  .nav-mobile .mobile-sub-menu {
+    background:#851c3d;
+  }
+  .nav-mobile .mobile-sub-menu li {
+    border-top: 1px solid #fff;
+  }
+  header a {
+    border-bottom: 0px;
+    color:#fff;
+  }
+  .fixed-header a {
+    border-bottom: 0px;
+    color:#fff;
+  }
+  .mobile-menu li.main-mobile-menu {
+    padding: 0px;
+    background: #DC245E;
+    border-bottom: 1px solid #fff;
+  }
+  .mobile-sub-menu {
+    visibility: hidden;
+    opacity: 0;
+    height: 0px;
+    margin:0;
+    transition:all 500ms ease;
+    text-align:center;
+    list-style: none;
+    position:relative;
+
+  }
+  .main-mobile-menu.open .mobile-sub-menu {
+    visibility: visible;
+    opacity: 1;
+    height: 110px;
+    margin:0;
+    position:relative;
+    margin:0;
+    text-align:center;
+    transition:all 500ms ease;
+    position:relative;
+    
+  }
 }
 
 
