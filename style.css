@@ -396,9 +396,16 @@ form label {
 .nav-menu li ul.sub-menu li {
   padding-bottom:5px;
 }
+
+nav.navbar {
+ display:none;
+}
 @media(max-width:767px){
     header nav{
         display: none;
+    }
+    nav.navbar {
+     display:none;
     }
 }
 
