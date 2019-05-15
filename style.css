@@ -442,7 +442,7 @@ header a {
   }
   .fixed-header a {
     text-decoration: none;
-    padding: 0px;
+    padding: 5px;
     display: inline-block;
     text-transform: uppercase;
     border-bottom: 0px solid white;
