@@ -453,7 +453,7 @@ header a {
    transition:all 500ms ease;
 }
   .fixed-header #nav-icon3 {
-    width: 50px;
+    width: 40px;
     height: 35px;
     position: absolute;
     margin: 16px auto;
