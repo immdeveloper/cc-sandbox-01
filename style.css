@@ -502,6 +502,9 @@ section.after-header {
 
 
 @media(max-width:767px){
+    .banner-fixed {
+    margin-top: 79px;
+    }
     .logo img {
     max-height: 65px;
     }
