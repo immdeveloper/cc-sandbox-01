@@ -201,6 +201,7 @@ footer a {
   border: 2px solid #DC245E;
   color: #DC245E;
   background: #fff;
+  border-radius:1px;
 }
 
 .button.white:hover {
