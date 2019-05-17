@@ -10,6 +10,7 @@ injectable-treatments:
   - title:
     title-highlighted: Botox
     subtitle: look younger for longer
+    price: '450.000'
     description_html: >-
       <p>Botox is one of our most popular treatments at Body Lab Bali. Botox
       blocks nerve activity in the muscles, causing a temporary reduction in
@@ -27,6 +28,7 @@ injectable-treatments:
   - title:
     title-highlighted: Dermal Fillers
     subtitle: Injectables
+    price: '450.000'
     description_html: >-
       <p>Dermal fillers are gel-like substances that are injected beneath the
       skin to help to diminish facial lines and restore volume and fullness in
@@ -44,6 +46,7 @@ injectable-treatments:
   - title:
     title-highlighted: Skin Boosters
     subtitle: Hydrate and plump
+    price: '450.000'
     description_html: >-
       <p>Skin Boosters are micro-injections of very smooth dermal filler that
       contains hyaluronic acid. The hyaluronic acid is soft and absorbs water
@@ -72,7 +75,8 @@ injectable-treatments:
     <div class="col-6_sm-12 padded">
       <h2> {{item.title}}<span> {{item.title-highlighted}} </span></h2>
       <h3> {{item.subtitle}}</h3>
-      {{item.description_html}}
+      {{item.description_html}} <span class="pink"> &nbsp; &nbsp; Price IDR. {{item.price}}</span>
+      <a class="button white" href="/contact">Book Now</a>
     </div>
   </div>
  {% endfor %}
