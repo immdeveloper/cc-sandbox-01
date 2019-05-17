@@ -181,16 +181,16 @@ footer a {
 }
 .button.pink {
   border: 2px solid #DC245E;
-  color: #DC245E;
-  background: #fff;
+  color: #fff;
+  background: #DC245E;
 }
 
 .button:hover {
   /*color: #8998A2;*/
   /*border-color: #8998A2;*/
-  color: #fff;
+  color: #DC245E;
   border-color: #DC245E;
-  background: #DC245E;
+  background: #fff;
 }
 
 /* forms */
