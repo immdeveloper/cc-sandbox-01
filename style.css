@@ -518,8 +518,11 @@ section.after-header {
     top: 0px;
     z-index: 123;
     width: 103%;
+    padding: 0;
     }
-    
+    .nav-mobile .mobile-menu {
+     margin-left: 0; 
+    }
     header nav{
         display: none;
     }
