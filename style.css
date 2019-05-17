@@ -197,6 +197,20 @@ footer a {
   background: #fff;
 }
 
+.button.white {
+  border: 2px solid #DC245E;
+  color: #DC245E;
+  background: #fff;
+}
+
+.button.white:hover {
+  /*color: #8998A2;*/
+  /*border-color: #8998A2;*/
+  color: #fff;
+  border-color: #DC245E;
+  background: #DC245E;
+}
+
 /* forms */
 
 form input,
