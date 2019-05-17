@@ -48,7 +48,9 @@ h2 + p { margin-top: 1rem;  }
 p {
   margin-bottom: 0.5rem;
 }
-
+p span {
+    color: #DC245E;
+}
 ul, 
 ol{
   margin-left: 1.5rem;
