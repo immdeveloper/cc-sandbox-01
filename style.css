@@ -172,6 +172,9 @@ footer a {
   text-align: center;
 }
 
+.inline-price {
+    display:inline;
+}
 
 /* Buttons */
 
