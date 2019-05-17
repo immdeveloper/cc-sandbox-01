@@ -460,6 +460,23 @@ section.after-header {
   padding: 5%;
 }
 /**/
+
+@media(max-width:1024px){
+  .nav-menu li {
+   padding-left:0px;
+  }
+}
+
+@media(max-width:991px){
+  header a {
+    font-size:12px;
+  }
+  .nav-menu li {
+   padding-left:0px ;
+  }
+}
+
+
 @media(max-width:767px){
     header nav{
         display: none;
