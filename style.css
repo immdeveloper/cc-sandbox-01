@@ -673,6 +673,7 @@ section.after-header {
     padding: 15px 0;
     background: #DC245E;
     border-bottom: 1px solid #fff;
+    text-align: center;
   }
   .mobile-sub-menu {
     visibility: hidden;
