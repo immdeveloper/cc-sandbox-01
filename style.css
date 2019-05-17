@@ -150,7 +150,9 @@ footer a {
   text-transform: none;
   color: rgb(60,60,65);
 }
-
+.banner {
+    padding:51px 5%;
+}
 .post-image {
   background-size: cover;
   background-position: center;
