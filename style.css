@@ -489,7 +489,7 @@ section.after-header {
   display:none;  
 }
 
-.bg-banner:before {
+.bg-banner-home:before {
   content:"";
   display:block;
   position: absolute;
