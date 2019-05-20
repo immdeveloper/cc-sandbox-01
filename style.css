@@ -153,7 +153,8 @@ footer a {
   color: rgb(60,60,65);
 }
 .banner {
-    padding:51px 5%;
+    padding: 64px 5%;
+    margin: 1px 0;
 }
 .post-image {
   background-size: cover;
