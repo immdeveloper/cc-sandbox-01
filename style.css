@@ -485,6 +485,11 @@ section.after-header {
 }
 /**/
 
+.mobile-banner {
+  display:none;  
+}
+
+
 @media(max-width:1024px){
   .nav-menu li {
    padding-left:0px;
@@ -502,6 +507,30 @@ section.after-header {
 
 
 @media(max-width:767px){
+    /*banner-slider-mobile*/
+    .mobile-banner {
+  display:block;  
+}
+  .dekstop-banner {
+  display:none;  
+}
+  .mobile-banner .bg-banner {
+    min-height: 40vh;
+}
+  .mobile-banner .text-slider h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: none;
+    color: #8998A2;
+}
+  .mobile-banner .mobile-text-slider {
+    padding:5%;
+  }
+  .mobile-banner .text-slider p {
+    color: rgb(90,90,95);
+    font-size: 18px;
+}
+    /*end banner mobile*/
     .banner-fixed {
     margin-top: 79px;
     }
