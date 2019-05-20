@@ -530,7 +530,17 @@ section.after-header {
     color: rgb(90,90,95);
     font-size: 18px;
 }
-    /*end banner mobile*/
+/*end banner mobile*/
+
+.padded {
+    padding: 5% 10%;
+  }
+  h3 {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+    /* text-transform: uppercase; */
+}
     .banner-fixed {
     margin-top: 79px;
     }
