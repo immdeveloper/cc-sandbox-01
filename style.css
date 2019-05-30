@@ -128,16 +128,23 @@ footer a {
 /* Background images & Banners */
 .bg-image,
 .bg-banner {
-  /*background-size: cover;*/
-  /*background-position: center;*/
-  /*min-height: 60vh;*/
-  /*position: relative;*/
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+  position: relative;
   
   
-  /* background-image: url(/images/bodylab-8.jpeg); */
+    /*background-size: contain;*/
+    /*background-position: center;*/
+    /*min-height: 60vh;*/
+    /*position: relative;*/
+    /*background-repeat: no-repeat;*/
+    /*background-color: #eee;*/
+}
+
+.bg-treatments {
     background-size: contain;
     background-position: center;
-    /* min-height: 30vh; */
     min-height: 60vh;
     position: relative;
     background-repeat: no-repeat;
