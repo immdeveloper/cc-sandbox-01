@@ -10,7 +10,7 @@ body-treatments:
   - title: Fat Freezing
     title-highlighted: non-surgical fat removal
     subtitle:
-    clssimg: bg-treatments
+    clssimg: 'bg-treatments'
     price: '1.500.000'
     description_html: >-
       <p>Fat freezing is a non-invasive alternative to liposuction. Through the
@@ -174,7 +174,7 @@ body-treatments:
   {% for item in page.body-treatments %}
   <div class="grid">
     <!--<div class="bg-image col-6_sm-12" style="background-image: url({{item.image_path}});"></div>-->
-    <div class="bg-image {{item.classimg}} col-6_sm-12" style="background-image: url({{item.image_path}});"></div>
+    <div class="bg-image {{item.clssimg}} col-6_sm-12" style="background-image: url({{item.image_path}});"></div>
     <div class="col-6_sm-12 padded">
       <h2> {{item.title}}<span> {{item.title-highlighted}} </span></h2>
       <h3> {{item.subtitle}}</h3>
