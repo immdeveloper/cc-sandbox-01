@@ -552,35 +552,12 @@ section.after-header {
         margin-bottom: 55px;
     }
 
-/*  */
-    .banner-slider-wrapper .bg-banner{
-      height: 100vh;
-     }
-     .banner-slider-wrapper .bg-banner{
-      background-size: contain;
-      background-position: top center;
-      background-color: #fff;
-     }
-     .bg-banner-home:before{
-      display: none;
-     }
-     .bg-banner .text-slider{
-      bottom: 5%;
-      top: auto;
-      left: 50%;
-      transform: translateX(-50%);
-     }
-     .bg-banner .text-slider h2, .bg-banner .text-slider p{
-      color: #333
-     }
-     /*  */
-
     /*banner-slider-mobile*/
     .mobile-banner {
-      display:none;  
+      display:block;  
     }
     .dekstop-banner {
-      display:block;  
+      display:none;  
     }
     .mobile-banner .bg-banner {
         min-height: 40vh;
@@ -820,7 +797,7 @@ section.after-header {
   transition: all 300ms ease;
   transform: rotate(360deg);
 }
-/* .bg-banner .text-slider {
+.bg-banner .text-slider {
     position: absolute;
     left: 0;
     right: 0;
@@ -828,27 +805,13 @@ section.after-header {
     transform: translate(5%,-50%);
     width: 450px;
     padding-right: 70px;
-} */
+}
 /**/
 .treatments-card .grid {
     display: flex;
     flex-flow: row wrap;
 }
 /**/
-
-
-.bg-banner .text-slider {
-  background: #fff;
-  padding: 15px 45px;
-  width: 100%;
-}
-.text-slider h2 {
-  font-size: 2rem;
-}
-.text-slider p {
-  font-size: 14px;
-}
-
 }
 
 
@@ -867,50 +830,4 @@ section.after-header {
     width: 100%;
     border: 10px solid white;
     }
-}
-
-@media(max-width:575px){
-  .bg-banner .text-slider {
-    bottom: 10%;
-    /* top: auto; */
-    left: 50%;
-    /* transform: translateX(-80%); */
-    background: #fff;
-    padding: 0;
-    width: 80%;
-}
-}
-
-@media(max-width:480px){
-  .bg-banner .text-slider {
-    bottom: 10%;
-    top: auto;
-    left: 70%;
-    transform: translateX(-80%);
-    background: #fff;
-    padding: 0;
-    width: 80%;
-}
-
-.text-slider h2 {
-  width: 50%;
-  
-}
-
-}
-
-@media(max-width:425px){
-  .bg-banner .text-slider {
-    bottom: 20%;
-    
-}
-}
-
-@media(max-width:375px){
-  .bg-banner .text-slider {
-    bottom: 5%;
-}
-.banner-slider-wrapper .bg-banner {
-  height: 80vh;
-}
 }
