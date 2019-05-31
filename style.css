@@ -854,3 +854,16 @@ section.after-header {
     border: 10px solid white;
     }
 }
+
+@media(max-width:575px){
+  .bg-banner .text-slider {
+    bottom: 10%;
+    top: auto;
+    left: 70%;
+    transform: translateX(-80%);
+}
+
+.bg-banner .text-slider {
+  width: 80%;
+}
+}
