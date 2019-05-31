@@ -883,7 +883,7 @@ section.after-header {
 
 @media(max-width:480px){
   .bg-banner .text-slider {
-    bottom: 20%;
+    bottom: 10%;
     top: auto;
     left: 70%;
     transform: translateX(-80%);
@@ -896,4 +896,11 @@ section.after-header {
   width: 50%;
 }
 
+}
+
+@media(max-width:425px){
+  .bg-banner .text-slider {
+    bottom: 20%;
+    
+}
 }
