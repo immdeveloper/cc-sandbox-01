@@ -552,12 +552,35 @@ section.after-header {
         margin-bottom: 55px;
     }
 
+/*  */
+    .banner-slider-wrapper .bg-banner{
+      height: 100vh;
+     }
+     .banner-slider-wrapper .bg-banner{
+      background-size: contain;
+      background-position: top center;
+      background-color: #fff;
+     }
+     .bg-banner-home:before{
+      display: none;
+     }
+     .bg-banner .text-slider{
+      bottom: 5%;
+      top: auto;
+      left: 50%;
+      transform: translateX(-50%);
+     }
+     .bg-banner .text-slider h2, .bg-banner .text-slider p{
+      color: #333
+     }
+     /*  */
+
     /*banner-slider-mobile*/
     .mobile-banner {
-      display:block;  
+      display:none;  
     }
     .dekstop-banner {
-      display:none;  
+      display:block;  
     }
     .mobile-banner .bg-banner {
         min-height: 40vh;
