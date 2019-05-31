@@ -904,3 +904,12 @@ section.after-header {
     
 }
 }
+
+@media(max-width:375px){
+  .bg-banner .text-slider {
+    bottom: 5%;
+}
+.banner-slider-wrapper .bg-banner {
+  height: 80vh;
+}
+}
