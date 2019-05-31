@@ -839,6 +839,9 @@ section.after-header {
 
 .bg-banner .text-slider {
   width: 80%;
+  background: #fff;
+  padding: 15px 45px;
+  width: 100%;
 }
 .text-slider h2 {
   font-size: 2rem;
