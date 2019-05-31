@@ -866,4 +866,10 @@ section.after-header {
 .bg-banner .text-slider {
   width: 80%;
 }
+.text-slider h2 {
+  font-size: 2rem;
+}
+.text-slider p {
+  font-size: 14px;
+}
 }
