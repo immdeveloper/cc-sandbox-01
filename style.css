@@ -835,6 +835,18 @@ section.after-header {
     flex-flow: row wrap;
 }
 /**/
+
+
+.bg-banner .text-slider {
+  width: 80%;
+}
+.text-slider h2 {
+  font-size: 2rem;
+}
+.text-slider p {
+  font-size: 14px;
+}
+
 }
 
 
@@ -863,13 +875,5 @@ section.after-header {
     transform: translateX(-80%);
 }
 
-.bg-banner .text-slider {
-  width: 80%;
-}
-.text-slider h2 {
-  font-size: 2rem;
-}
-.text-slider p {
-  font-size: 14px;
-}
+
 }
