@@ -871,7 +871,7 @@ section.after-header {
 
 @media(max-width:575px){
   .bg-banner .text-slider {
-    /* bottom: 20%; */
+    bottom: 10%;
     /* top: auto; */
     left: 50%;
     /* transform: translateX(-80%); */
